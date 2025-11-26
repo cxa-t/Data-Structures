@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C\u002B\u002B\\25_11_26_SeqList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47FCACB6-8A2B-4A94-A91C-580AB29C8E56}|25_11_26_SeqList.vcxproj|E:\\C\u002B\u002B\\25_11_26_SeqList\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47FCACB6-8A2B-4A94-A91C-580AB29C8E56}|25_11_26_SeqList.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FCACB6-8A2B-4A94-A91C-580AB29C8E56}|25_11_26_SeqList.vcxproj|E:\\C\u002B\u002B\\25_11_26_SeqList\\SeqList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47FCACB6-8A2B-4A94-A91C-580AB29C8E56}|25_11_26_SeqList.vcxproj|solutionrelative:SeqList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FCACB6-8A2B-4A94-A91C-580AB29C8E56}|25_11_26_SeqList.vcxproj|E:\\C\u002B\u002B\\25_11_26_SeqList\\SeqList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47FCACB6-8A2B-4A94-A91C-580AB29C8E56}|25_11_26_SeqList.vcxproj|solutionrelative:SeqList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\25_11_26_SeqList\\test.c",
+              "RelativeDocumentMoniker": "test.c",
+              "ToolTip": "E:\\C\u002B\u002B\\25_11_26_SeqList\\test.c*",
+              "RelativeToolTip": "test.c*",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwFsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-25T14:05:05.171Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeqList.c",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\25_11_26_SeqList\\SeqList.c",
+              "RelativeDocumentMoniker": "SeqList.c",
+              "ToolTip": "E:\\C\u002B\u002B\\25_11_26_SeqList\\SeqList.c",
+              "RelativeToolTip": "SeqList.c",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAuwJAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-25T14:04:57.946Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeqList.h",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\25_11_26_SeqList\\SeqList.h",
+              "RelativeDocumentMoniker": "SeqList.h",
+              "ToolTip": "E:\\C\u002B\u002B\\25_11_26_SeqList\\SeqList.h",
+              "RelativeToolTip": "SeqList.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T14:04:44.975Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
