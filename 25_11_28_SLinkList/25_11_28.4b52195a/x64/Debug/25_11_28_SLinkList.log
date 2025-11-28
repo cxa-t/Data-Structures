@@ -1,0 +1,3 @@
+﻿  SLinkList.c
+E:\C++\25_11_28_SLinkList\SLinkList.c(29,1): warning C4715: “SLNodeBuyNode”: 不是所有的控件路径都返回值
+  25_11_28_SLinkList.vcxproj -> E:\C++\25_11_28_SLinkList\x64\Debug\25_11_28_SLinkList.exe
