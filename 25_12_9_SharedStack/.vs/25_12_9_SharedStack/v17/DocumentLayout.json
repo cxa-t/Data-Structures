@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C\u002B\u002B\\25_12_9_SharedStack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{258455C3-55BD-40D4-B67E-A1B736150307}|25_12_9_SharedStack.vcxproj|E:\\C\u002B\u002B\\25_12_9_SharedStack\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{258455C3-55BD-40D4-B67E-A1B736150307}|25_12_9_SharedStack.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258455C3-55BD-40D4-B67E-A1B736150307}|25_12_9_SharedStack.vcxproj|E:\\C\u002B\u002B\\25_12_9_SharedStack\\SharedStack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{258455C3-55BD-40D4-B67E-A1B736150307}|25_12_9_SharedStack.vcxproj|solutionrelative:SharedStack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258455C3-55BD-40D4-B67E-A1B736150307}|25_12_9_SharedStack.vcxproj|E:\\C\u002B\u002B\\25_12_9_SharedStack\\SharedStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{258455C3-55BD-40D4-B67E-A1B736150307}|25_12_9_SharedStack.vcxproj|solutionrelative:SharedStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\25_12_9_SharedStack\\test.c",
+              "RelativeDocumentMoniker": "test.c",
+              "ToolTip": "E:\\C\u002B\u002B\\25_12_9_SharedStack\\test.c",
+              "RelativeToolTip": "test.c",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-08T06:57:36.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SharedStack.c",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\25_12_9_SharedStack\\SharedStack.c",
+              "RelativeDocumentMoniker": "SharedStack.c",
+              "ToolTip": "E:\\C\u002B\u002B\\25_12_9_SharedStack\\SharedStack.c",
+              "RelativeToolTip": "SharedStack.c",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAswJUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-08T06:57:16.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SharedStack.h",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\25_12_9_SharedStack\\SharedStack.h",
+              "RelativeDocumentMoniker": "SharedStack.h",
+              "ToolTip": "E:\\C\u002B\u002B\\25_12_9_SharedStack\\SharedStack.h",
+              "RelativeToolTip": "SharedStack.h",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-08T06:56:46.91Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
