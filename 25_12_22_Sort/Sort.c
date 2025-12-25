@@ -335,7 +335,6 @@ void QuickSort(int* a, int left, int right)
 //}
 
 #include "Stack.h"
-
 void QuickSortNonR(int* a, int left, int right)
 {
 	ST st;
@@ -368,3 +367,126 @@ void QuickSortNonR(int* a, int left, int right)
 	STDestroy(&st);
 }
 
+void _MergeSort(int* a, int* tmp, int left, int right)
+{
+	if (left >= right)
+		return;
+
+	int midi = left + (right - left) / 2;
+	// left midi midi+1 right
+	_MergeSort(a, tmp, left, midi);
+	_MergeSort(a, tmp, midi+1, right);
+
+	//归并操作
+	int left_first = left;
+	int right_first = midi;
+	int left_second = midi + 1;
+	int right_second = right;
+	int i = left;
+
+	while (left_first <= right_first && left_second <= right_second)
+	{
+		if (a[left_first] <= a[left_second])
+		{
+			tmp[i++] = a[left_first++];
+		}
+		else
+		{
+			tmp[i++] = a[left_second++];
+		}
+	}
+	while(left_first <= right_first)
+		tmp[i++] = a[left_first++];
+	while (left_second <= right_second)
+		tmp[i++] = a[left_second++];
+
+	memcpy(a + left, tmp + left, sizeof(int) * (right - left + 1));
+}
+
+void MergeSort(int* a, int n)
+{
+	int* tmp = (int*)malloc(sizeof(int) * n);
+	if (tmp == NULL)
+	{
+		perror("malloc");
+		exit(-1);
+	}
+
+	_MergeSort(a, tmp, 0, n-1);
+
+	free(tmp);
+	tmp = NULL;
+}
+
+void MergeSortNonR(int* a, int n)
+{
+	int* tmp = (int*)malloc(sizeof(int) * n);
+	if (tmp == NULL)
+	{
+		perror("malloc");
+		exit(-1);
+	}
+
+	int gap = 1;
+
+	while (gap < n)
+	{
+		for (int i = 0; i < n; i += 2 * gap)
+		{
+			//归并操作
+			int left_first = i;
+			int right_first = i + gap - 1;
+			int left_second = i + gap;
+			int right_second = i + 2 * gap - 1;
+			int j = i;
+
+			if (left_second >= n)
+				break;
+
+			if (right_second >= n)
+				right_second = n - 1;
+
+			while (left_first <= right_first && left_second <= right_second)
+			{
+				if (a[left_first] <= a[left_second])
+					tmp[j++] = a[left_first++];
+				else
+					tmp[j++] = a[left_second++];
+			}
+			while (left_first <= right_first)
+				tmp[j++] = a[left_first++];
+			while (left_second <= right_second)
+				tmp[j++] = a[left_second++];
+			memcpy(a + i, tmp + i, sizeof(int) * (right_second - i + 1));
+		}
+		gap *= 2;
+	}
+}
+
+void CountSort(int* a, int n)
+{
+	int min = a[0];
+	int max = a[0];
+
+	for (int i = 0; i < n; i++)
+	{
+		if (a[i] < min)
+			min = a[i];
+		if (a[i] > max)
+			max = a[i];
+	}
+
+	int range = max - min + 1;
+	int* tmp = (int*)calloc(range, sizeof(int));
+	if (tmp == NULL)
+	{
+		perror("malloc");
+		exit(-1);
+	}
+
+	for (int i = 0; i < n; i++)
+	{
+		tmp[a[i] - min]++;
+	}
+
+}

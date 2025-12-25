@@ -38,6 +38,11 @@ void testHeapSort()
 	HeapSort(a, sizeof(a) / sizeof(a[0]));
 }
 
+void testMergeSort()
+{
+	int a[] = { 9,1,2,5,7,4,6,3 };
+	MergeSort(a, sizeof(a) / sizeof(a[0]));
+}
 
 void testOP()
 {
