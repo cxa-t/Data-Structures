@@ -1,0 +1,70 @@
+﻿  Test.cpp
+D:\bit113\vs113\Graph\Graph.h(317,29): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Test.cpp”)
+      D:\bit113\vs113\Graph\Graph.h(317,29):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\bit113\vs113\Graph\Graph.h(371,28):
+          查看对正在编译的 类 模板 实例化“Link_table::Graph<std::string,int,true,2147483647>”的引用
+          D:\bit113\vs113\Graph\Graph.h(312,8):
+          在编译 类 模板 成员函数“void Link_table::Graph<std::string,int,true,2147483647>::AddEdge(const V &,const V &,const W &)”时
+          with
+          [
+              V=std::string,
+              W=int
+          ]
+              D:\bit113\vs113\Graph\Graph.h(372,13):
+              请参阅 "Link_table::TestGraph1" 中对 "Link_table::Graph<std::string,int,true,2147483647>::AddEdge" 的第一个引用
+  
+D:\bit113\vs113\Graph\Graph.h(322,30): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Test.cpp”)
+  
+D:\bit113\vs113\Graph\Graph.h(295,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Test.cpp”)
+      D:\bit113\vs113\Graph\Graph.h(295,23):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\bit113\vs113\Graph\Graph.h(289,3):
+          在编译 类 模板 成员函数“Link_table::Graph<std::string,int,true,2147483647>::Graph(const V *,size_t)”时
+          with
+          [
+              V=std::string
+          ]
+              D:\bit113\vs113\Graph\Graph.h(371,30):
+              请参阅 "Link_table::TestGraph1" 中对 "Link_table::Graph<std::string,int,true,2147483647>::Graph" 的第一个引用
+  
+D:\bit113\vs113\Graph\Graph.h(24,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Test.cpp”)
+      D:\bit113\vs113\Graph\Graph.h(24,23):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\bit113\vs113\Graph\Graph.h(245,28):
+          查看对正在编译的 类 模板 实例化“Matrix::Graph<std::string,int,true,2147483647>”的引用
+          D:\bit113\vs113\Graph\Graph.h(18,3):
+          在编译 类 模板 成员函数“Matrix::Graph<std::string,int,true,2147483647>::Graph(const V *,size_t)”时
+          with
+          [
+              V=std::string
+          ]
+              D:\bit113\vs113\Graph\Graph.h(245,29):
+              请参阅 "Matrix::TestCircleBDFS" 中对 "Matrix::Graph<std::string,int,true,2147483647>::Graph" 的第一个引用
+  
+D:\bit113\vs113\Graph\Graph.h(150,11): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Test.cpp”)
+      D:\bit113\vs113\Graph\Graph.h(150,11):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\bit113\vs113\Graph\Graph.h(143,8):
+          在编译 类 模板 成员函数“void Matrix::Graph<std::string,int,true,2147483647>::_BFS(const V &,std::vector<bool,std::allocator<bool>> &)”时
+          with
+          [
+              V=std::string
+          ]
+              D:\bit113\vs113\Graph\Graph.h(93,8):
+              请参阅 "Matrix::Graph<std::string,int,true,2147483647>::BFS" 中对 "Matrix::Graph<std::string,int,true,2147483647>::_BFS" 的第一个引用
+              D:\bit113\vs113\Graph\Graph.h(264,8):
+              请参阅 "Matrix::TestCircleBDFS" 中对 "Matrix::Graph<std::string,int,true,2147483647>::BFS" 的第一个引用
+  
+D:\bit113\vs113\Graph\Graph.h(170,16): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Test.cpp”)
+  
+D:\bit113\vs113\Graph\Graph.h(177,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Test.cpp”)
+  
+  Graph.vcxproj -> D:\bit113\vs113\Graph\x64\Debug\Graph.exe
